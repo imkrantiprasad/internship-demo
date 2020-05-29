@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.main {
+  width: 60%;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .inputBox {
+  width: 200px;
+  height: 100;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  background-color: red;
+  /* Green */
+  border: none;
   color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  /* float: right; */
 }
 
-.App-link {
-  color: #61dafb;
+.comment {
+  max-width: 70%;
+  /* border: 1px solid red; */
+  /* display: inline; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnIcon {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+}
+.up {
+  color: green;
+}
+.down {
+  color: red;
+}
+.vote {
+  float: right;
+  width: 28%;
+  /* border: 1px solid red; */
 }
