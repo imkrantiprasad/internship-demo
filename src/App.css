@@ -55,3 +55,18 @@
 .boxHead {
   font-weight: bold;
 }
+
+.btnIcon:focus,
+.btnIcon:active:focus,
+.btnIcon.active:focus,
+.btnIcon.focus,
+.btnIcon:active.focus,
+.btnIcon.active.focus {
+  outline: none;
+  outline: 0;
+}
+
+.btnIcon:focus {
+  outline: none;
+  box-shadow: none;
+}
