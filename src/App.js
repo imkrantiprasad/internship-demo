@@ -15,7 +15,6 @@ class App extends React.Component {
 
   }
   handleUpClick(id) {
-    console.log(id)
     this.setState(prevState => {
       const updated = prevState.votes.map(vote => {
         if (vote.id === id) {
@@ -71,7 +70,9 @@ class App extends React.Component {
           <form>
             <input style={inputStyle} type="text" className="inptBox" placeholder="Type a comment..." />
             <br />
-            <button className="btn" >Post Comment</button>
+            <br />
+            <button className="btn1" >Post Comment</button>
+            <br />
           </form>
         </div>
         <div className="commentBox">

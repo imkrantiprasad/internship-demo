@@ -10,7 +10,7 @@
   height: 100;
 } */
 
-.btn {
+.btn1 {
   background-color: red;
   /* Green */
   border: none;
@@ -23,14 +23,15 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
+  outline: none;
+
   /* float: right; */
 }
 
-.comment {
-  max-width: 70%;
-  /* border: 1px solid red; */
-  /* display: inline; */
+.commentBox {
+  margin-top: 50px;
 }
+
 .btnIcon {
   background-color: white;
   border: none;
@@ -38,14 +39,19 @@
   outline: none;
   display: inline-block;
 }
+
 .up {
   color: green;
 }
+
 .down {
   color: red;
 }
+
 .vote {
-  float: right;
-  width: 28%;
-  /* border: 1px solid red; */
+  margin-bottom: 50px;
+}
+
+.boxHead {
+  font-weight: bold;
 }
